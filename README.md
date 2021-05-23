@@ -1,32 +1,26 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Flash Chat ⚡️ 
 
+*Flash Chat is a mobile chat app built using **Flutter** and
+**Firebase** that incorporates animations and file streams to
+facilitate real-time communication.*
 
-# Flash Chat ⚡️
+<p align="center">
+<img src="./image.jpg" width="150" align='center' />
+&nbsp;
+&nbsp;
+&nbsp;
 
-## Our Goal
+## Getting Started
 
-The objective of this tutorial is to learn how to incorporate Firebase into our Flutter apps. We'll be using Firebase Cloud Firestore as well as the Firebase authentication package to equip our app with a cloud-based NoSQL database and secure authentication methods. 
+In the main project directory:
 
+1. Download all necessary dependencies mentioned in `pubspec.yaml` with:
+```
+flutter pub get
+```
 
-## What you will create
+2. Configure the `android/gradle` files to secure a connection between the app and your *Firebase* account.
 
-We’re going to build a modern messaging app where users can sign up and log in to chat.
+3. Run the app in debug mode to enable hot reloading.
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/flash_chat_flutter_demo.gif)
-
-## What you will learn
-
-- How to incorporate Firebase into your Flutter projects.
-- How to use Firebase authentication to register and sign in users.
-- How to create beautiful animations using the Flutter Hero widget.
-- How to create custom aniamtions using Flutter's animation controller. 
-- Learn all about mixins and how they differ from superclasses.
-- Learn about Streams and how they work.
-- Learn to use ListViews to build scrolling views.
-- How to use Firebase Cloud Firestore to store and retrieve data on the fly.
-
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+You can now interact with the application and chat with your friends.
